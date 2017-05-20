@@ -12,9 +12,11 @@ army_config = ArmyConfig('army.csv') # it is seen as global variable in this mod
 
 
 class ArmyTypeVector(DictVector):
-    def __init__(self, values = None):
-        if values is None:
+    def __init__(self, values = None, constant = None):
+        if values is None and constant is None:
             values = [0 for i in range(len(army_config.type))]
+        elif values is None and constant is not None:
+            values = [constant for i in range(len(army_config.type))]
         if isinstance(values, list):
             values = dict(zip(army_config.type, values))
         assert isinstance(values, dict) # but strength may be not suffice
