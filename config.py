@@ -35,5 +35,6 @@ class ArmyConfig(object):
         
         self.type = list(zip(*self.body))[0]
         
+        
 morale_loss_constant = 3
 casualty_constant = 0.015
