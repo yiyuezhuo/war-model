@@ -1,0 +1,10 @@
+Type,Morale,Maintenance,Skirmish Attack,Melee Attack,Pursue Attack,Skirmish Defense,Melee Defense,Pursue Defense
+Light Infantry,2,0.7,1,1,2,2,1,2.5
+Heavy Infantry,4,3,0.25,6,1,3,4,4
+Pikemen,6,2,0.1,5,0.2,3.5,4.5,2
+Light Cavalry,4,3,2,3,6,4.5,3,4.5
+Heavy Cavalry,10,6,0.5,10,4,4,5,7.5
+Archers,1,2,2,1,2,1.5,1.5,2.25
+Horse Archers,3,4,4,1,7,4.5,2,4.5
+War Elephants,15,20,0.25,25,3,6,10,3
+Camel Cavalry,5,3,3,6,3,2,2,1.5
